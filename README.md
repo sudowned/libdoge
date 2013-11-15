@@ -29,4 +29,10 @@ Doges prefer their own strings, but you may occasionally want
 to condogenate multiple doges. The `strncat` function is
 not recommended, because cats are awful.
 
+Portability concerns
+====================
+
+This will probably only work with C99 due to the use of stdbool.
+An effort to backport the library for older systems is under way.
+
 
