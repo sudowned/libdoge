@@ -10,3 +10,6 @@ test: doge
 
 doge: 
 	$(CC) doge.c libdoge.o $(CFLAGS) -o doge
+	
+install:
+	cp doge /usr/bin/doge
