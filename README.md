@@ -4,7 +4,7 @@ libdoge
 A library for integrating doge into C/C++ applications.
 
 Building libdoge
-================
+----------------
 
 **To build libdoge,** cd into the libdoge directory and run "make".
 
@@ -15,11 +15,12 @@ doge."
 the shared library yet because a doge distracted me.
 
 Using the doge utility
-======================
+----------------------
 
 To output a doge to your text console, run:
 
 `$ doge`
+
 (or `$ ./doge` if you haven't done "make install" yet.) You may
 notice that on terminals with a black background, this does not
 display properly. To correct this, run doge with the -dark
@@ -29,9 +30,9 @@ switch:
 
 
 Function Reference
-==================
+------------------
 
-###void doge_have(char [], bool)
+`void doge_have(char [], bool)`
 
 Accepts a pointer to a char array. Puts one doge into it. You
 can't put multiple doges in one ~~kennel~~ array with this so
@@ -41,7 +42,7 @@ The second argument determines what color of doge is produced
 by the library.
 
 Memory considerations
-=====================
+---------------------
 
 One doge consumes approximately 2kb of memory. This is because
 while they are compact when stored digitally (well, more
@@ -56,7 +57,7 @@ to condogenate multiple doges. The `strncat` function is
 not recommended, because cats are awful.
 
 Portability concerns
-====================
+--------------------
 
 This will probably only work with C99 due to the use of stdbool.
 An effort to backport the library for older systems is under way.
