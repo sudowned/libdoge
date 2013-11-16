@@ -45,7 +45,7 @@ Memory considerations
 ---------------------
 
 One doge consumes approximately 2kb of memory. This is because
-while they are compact when stored digitally (well, more
+while doges are compact when stored digitally (well, more
 compact than analog doges) they're much more comfortable in a
 multibyte enclosure. Early experiments were performed using
 more limited ASCII subsets but the doges were mangled beyond
