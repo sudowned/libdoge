@@ -6,13 +6,15 @@ A library for integrating doge into C/C++ applications.
 Building libdoge
 ----------------
 
-**To build libdoge,** cd into the libdoge directory and run "make".
+**To build libdoge,** cd into the libdoge directory and run `make`.
 
-**To build the reference implementation doge utility,** run "make
-doge."
+**To install the shared library,** run `make install`.
 
-**To install the utility,** run "make install". This doesn't install
-the shared library yet because a doge distracted me.
+**To build the reference implementation doge utility,** run `make
+doge.`
+
+**To install the utility,** run `make install-doge`. ~~This doesn't install
+the shared library yet because a doge distracted me.~~ Look up there
 
 Using the doge utility
 ----------------------
