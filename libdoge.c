@@ -41,7 +41,5 @@ void doge_have(char doge[], bool dark) {
 		}
 		strncat(dogeout, such, 8); // such unicode, wow
 	}
-	printf("debug\n");
 	sprintf(doge, "\n%s\n", dogeout);
-	printf("debug\n");
 }
