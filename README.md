@@ -23,13 +23,20 @@ To output a doge to your text console, run:
 
 `$ doge`
 
-(or `$ ./doge` if you haven't done "make install" yet.) You may
+(or `$ ./doge` if you haven't done "make install" yet.) 
+
+####Sample output:
+<img src="http://www.sudowned.com/filebox/doge.png">
+
+You may
 notice that on terminals with a black background, this does not
 display properly. To correct this, run doge with the -dark
 switch:
 
 `$ doge -dark`
 
+####Sample output:
+<img src="http://www.sudowned.com/filebox/doge-dark.png">
 
 Function Reference
 ------------------
